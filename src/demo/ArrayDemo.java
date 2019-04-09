@@ -39,5 +39,7 @@ public class ArrayDemo {
 
 		Arrays.sort(word, (first, second) -> first.compareTo(second));
 		System.out.println("After sorting: " + Arrays.toString(word));
+		
+		System.out.println("change");
 	}
 }
